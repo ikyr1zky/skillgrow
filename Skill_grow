@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillGrow - Kursus Online Mahasiswa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: #0d47a1;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header nav a {
+      color: #fff;
+      margin-left: 1.5rem;
+      text-decoration: none;
+    }
+    .hero {
+      background: #e3f2fd;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      color: #0d47a1;
+    }
+    .hero p {
+      max-width: 600px;
+      margin: 1rem auto;
+    }
+    .hero button {
+      background: #0d47a1;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      margin: 1rem 0.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 960px;
+      margin: auto;
+    }
+    .features, .faq {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .feature, .faq-item {
+      background: #f1f1f1;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .cta {
+      background: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    .cta button {
+      background: white;
+      color: #0d47a1;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    footer {
+      background: #333;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    footer a {
+      color: #90caf9;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>SkillGrow</strong></div>
+    <nav>
+      <a href="#hero">Beranda</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#fitur">Fitur</a>
+      <a href="#testimoni">Testimoni</a>
+      <a href="#faq">FAQ</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero">
+    <h1>Upgrade Skill-mu, Siap Hadapi Dunia Kerja!</h1>
+    <p>Platform kursus online dengan kelas singkat, aplikatif, dan fleksibel. Cocok untuk mahasiswa dan fresh graduate.</p>
+    <button>Mulai Belajar</button>
+    <button>Lihat Kelas Gratis</button>
+  </section>
+
+  <section id="tentang">
+    <h2>Tentang SkillGrow</h2>
+    <p>SkillGrow adalah platform edukasi online untuk mahasiswa Indonesia. Menyediakan kursus praktis seperti Canva, Excel, dan UI/UX dasar dengan mentor profesional.</p>
+  </section>
+
+  <section id="fitur">
+    <h2>Fitur Kami</h2>
+    <div class="features">
+      <div class="feature">💡 Kelas 1–2 jam</div>
+      <div class="feature">👨‍🏫 Mentor Industri</div>
+      <div class="feature">📱 Akses Web & Mobile</div>
+      <div class="feature">🏅 Sertifikat Digital</div>
+      <div class="feature">📘 Topik Populer</div>
+      <div class="feature">💰 Freemium & Langganan</div>
+    </div>
+  </section>
+
+  <section id="testimoni">
+    <h2>Testimoni Pengguna</h2>
+    <p>"Setelah ikut kelas Public Speaking, saya jadi lebih percaya diri!" - Mahasiswa UM Metro</p>
+    <p>"Kursus Excel-nya langsung bisa saya praktikkan saat magang." - Mahasiswa STMIK</p>
+  </section>
+
+  <section class="cta">
+    <h2>Bergabunglah Sekarang</h2>
+    <p>Sudah ribuan mahasiswa terbantu. Yuk, giliran kamu sekarang!</p>
+    <button>Daftar Gratis</button>
+  </section>
+
+  <section id="faq">
+    <h2>FAQ</h2>
+    <div class="faq">
+      <div class="faq-item">
+        <strong>Apakah kursus ini gratis?</strong>
+        <p>Ada kursus gratis dan juga kursus premium berbayar.</p>
+      </div>
+      <div class="faq-item">
+        <strong>Apakah dapat sertifikat?</strong>
+        <p>Ya, untuk pengguna premium.</p>
+      </div>
+      <div class="faq-item">
+        <strong>Bisakah diakses lewat HP?</strong>
+        <p>Bisa diakses lewat aplikasi dan web mobile friendly.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak">
+    <h2>Kontak Kami</h2>
+    <p>Email: support@skillgrow.id</p>
+    <p>Instagram: @skillgrow</p>
+    <p>Kontak: +6285269368166</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SkillGrow. All rights reserved.</p>
+    <p><a href="#">Kebijakan Privasi</a> | <a href="#">Syarat dan Ketentuan</a></p>
+  </footer>
+</body>
+</html>
